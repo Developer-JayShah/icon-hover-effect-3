@@ -1,0 +1,81 @@
+body {
+    background-color: #efbbcf;
+}
+.container {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 60px;
+    transition: .4s;
+    height: 60px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50%;
+    background-color: #E91E63;
+    color: #FFFFFF;
+    font-size: 35px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+
+}
+.container a {
+    transition: .4s;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 24px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+}
+
+
+.container a:nth-child(2) {
+    transition-delay: 0.3s;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background: #55acee;
+}
+
+.container a:nth-child(3) {
+    transition-delay: 0.4s;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background: #dc4e41;
+}
+
+.container a:nth-child(4) {
+    transition-delay: 0.5s;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background: #3F3F3F;
+}
+
+.container:hover a {
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+}
+
+.container a:nth-child(2) 
+{
+        right: 80px;
+        bottom: 0px;
+}
+.container a:nth-child(3) 
+{
+    right:65px;
+    bottom:65px;
+}
+
+.container a:nth-child(4) 
+{
+    right:0px;
+    bottom:80px;
+}
